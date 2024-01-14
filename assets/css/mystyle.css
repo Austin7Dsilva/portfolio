@@ -12065,7 +12065,7 @@ p {
   display: -webkit-flex;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 3rem;
+  grid-gap: rem;
 }
 
 .pricing-wrapper .pricing-card {
@@ -13024,7 +13024,7 @@ pre .code {
 
 /* sections */
 .section {
-  padding: 70px 10px;
+  padding: 30px 10px;
 }
 
 .section .section-title {
@@ -13039,6 +13039,8 @@ pre .code {
 
 .section-sm {
   padding: 40px 0 !important;
+  padding-top: 10% !important;
+  padding-bottom: 10% !important;
 }
 
 .section-md {
