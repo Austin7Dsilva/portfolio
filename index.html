@@ -286,7 +286,7 @@
                             <span class="portfolio-card-caption">
                                 <h4>E-commerce</h4>
                                     <p class="font-weight-normal">Automated E-commerce solution optimizing online retail processes</p>
-                                    <button href="#" class="btn btn-primary mt-3 pricing-card-btn">Explore</button>
+                                    <button href="#" class="btn btn-primary mt-3 pricing-card-btn">Explore &#x2197</button>
                             </span>
                         </span>
                     </a>
@@ -299,7 +299,7 @@
                             <span class="portfolio-card-caption">
                                 <h4>CRM</h4>
                                     <p class="font-weight-normal">Automated CRM optimizing customer interactions and sales processes</p>
-                                    <button href="#" class="btn btn-primary mt-3 pricing-card-btn">Explore </button>
+                                    <button href="#" class="btn btn-primary mt-3 pricing-card-btn">Explore</button>
                             </span>
                         </span>
                     </a>
@@ -338,24 +338,43 @@
                     <div class="pricing-card-body">
                         <h6 class="pricing-card-title">2012 - Found my interest</h6>
                         <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
+                            <p>As a curious 12-year-old me, Found joy in testing things beyond screens. From mixing ingredients in the kitchen to dismantling gadgets, every experiment was a new adventure. 
+                            My childhood curiosity grew into a lifelong interest in understanding and testing various systems. Today, I apply that same enthusiasm to my work, turning playful exploration into a fulfilling career.</p>
                         </div>
                     </div>
-                    <button onclick="likeOrUnlike()" href="#" class="btn btn-primary mt-3 pricing-card-btn" id="InterestingButton">Interesting?</button>
+                    <div class="unique-container">
+                        <button onclick="openPopup()" href="#" class="btn btn-primary mt-3 pricing-card-btn" id="InterestingButton">Interesting?</button>
+                        <div class="popup" id="popup">
+                            <img src="assets/imgs/Thankyou.svg" alt="successtick">
+                            <h2>Thank You!</h2>
+                            <p>You just made my day a lot more interesting with your click</p>
+                            <button type="button" onclick="closePopup()">Alright</button>
+                        </div>
+                    </div>
                 </div>
                 
                 <div class="pricing-card">
                     <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/UG_Logo.png"
+                        <img class="pricing-card-icon" src="assets/imgs/Diploma_BG.png"
                         alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, mystyle Landing page">
                     </div>
                     <div class="pricing-card-body">
                         <h6 class="pricing-card-title">2018 - Diploma in Hand</h6>
                         <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p> 
+                            <p>Following my parents and neighbours advice, I completed a diploma in mechanical engineering in Chennai. Despite sticking to their guidance, my passion for testing remained strong but here on machines. 
+                                Now, armed with both formal education and personal curiosity, I'm excited and started career in testing. Looking back, it was a perfect blend of what I've learned and loved.</p> 
                         </div>
                     </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Like it?</a>
+                    <div class="unique-container">
+                        <button onclick="openPopup('LikeitButton')" class="btn btn-primary mt-3 pricing-card-btn" id="LikeitButton">Like It?</button>
+                        <div class="popup" id="popup">
+                            <img src="assets/imgs/Thankyou.svg" alt="successtick">
+                            <h2>Thank You!</h2>
+                            <p>Wow, you actually read all that? I'm impressed! And grateful for your support</p>
+                            <button type="button" onclick="closePopup()">Alright</button>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="pricing-card">
                     <div class="pricing-card-header">
@@ -365,41 +384,58 @@
                     <div class="pricing-card-body">
                         <h6 class="pricing-card-title">2020 - Digital Turning Point</h6>
                         <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
+                            <p>I got my first laptop. When I tried booking a train for the first time, The experience left me feeling uneasy and encountered some bugs in the application. 
+                                Surprisingly, instead of frustration, a newfound passion for testing blossomed. This shift from curiosity to passion led me to navigate the world of testing, turning glitches into opportunities for improvement.</p>
                         </div>
                     </div>
                     <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Feel me?</a>
                 </div>
                 <div class="pricing-card">
                     <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/Laptop_Logo.png"
+                        <img class="pricing-card-icon" src="assets/imgs/UG_Logo.png"
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, mystyle Landing page">
                     </div>
                     <div class="pricing-card-body">
                         <h6 class="pricing-card-title">2021 - The BE Victory</h6>
                         <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
+                            <p>After completing my diploma, I continued my studies in <strong>BE</strong> in Bengaluru and successfully graduated. It was my first time moving out of my city for engineering, and it made me feel like I had achieved a massive victory. 
+                                The experience broadened my horizons and added a new chapter to my educational journey, marking a significant milestone in my past</p>
                         </div>
                     </div>
                     <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Keen?</a>
                 </div>
                 <div class="pricing-card">
                     <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/Laptop_Logo.png"
+                        <img class="pricing-card-icon" src="assets/imgs/FirstCompany_BG.png"
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, mystyle Landing page">
                     </div>
                     <div class="pricing-card-body">
                         <h6 class="pricing-card-title">2022 - Dream Job Attained</h6>
                         <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
+                            <p>Right after graduating, I joined a software testing training institute and completed a 6-month course. <strong>Through this training, I secured my first job in an MNC</strong>, fulfilling a dream I had always cherished - to join a big company like everyone else. 
+                                It marked a significant step in my career, turning aspirations into reality and setting the stage for a journey into the corporate world.</p>
                         </div>
                     </div>
                     <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Got vibes?</a>
                 </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/Layoff_BG.png"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, mystyle Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">2023 - Echoes of Endings</h6>
+                        <div class="pricing-card-list">
+                            <p>I faced a setback as <strong>I got laid off from Hudson's Bay Company</strong> due to the recession. The uncertainty left me feeling depressed initially, but as days passed, 
+                                I found the strength to bounce back. Determined to overcome the challenges, I began upgrading my skills and <strong>now I am actively searching for new job opportunities.</strong><br></br></p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Hurts?</a>
+                </div>
 
-            </div><!-- end of pricing wrapper -->
+            </div><!-- end of pricing wrapper --> 
         </div> <!-- end of container -->
-    </section><!-- end of pricing section -->
+    </section><!-- end of Journey section -->
 
     <!-- section -->
     <section class="section-sm bg-primary" id="hire_me">

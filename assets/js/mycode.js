@@ -37,16 +37,16 @@ $('#nav-toggle').click(function(){
     $('ul.nav').toggleClass('show');
 });
 
-let isInteresting = false; // Initial state
 
-    function likeOrUnlike() {
-        const button = document.getElementById('InterestingButton');
-        if (isInteresting) {
-            button.textContent = 'Interesting?'; // Change text back to 'Interesting?'
-            // You can add additional actions if needed when unliking
-        } else {
-            button.textContent = 'Thank you!'; // Change text to 'Thank you!'
-            // You can add additional actions if needed when liking
-        }
-        isInteresting = !isInteresting; // Toggle the state
-    }
+// //A pop-up code
+
+let popup = document.getElementById("popup")
+
+function openPopup() {
+    popup.classList.add('open-popup')
+}
+
+function closePopup() {
+    popup.classList.remove('open-popup')
+}
+
