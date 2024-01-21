@@ -40,13 +40,17 @@ $('#nav-toggle').click(function(){
 
 // //A pop-up code
 
-let popup = document.getElementById("popup")
-
-function openPopup() {
-    popup.classList.add('open-popup')
+function openPopup(event) {
+    let str = event.target.id;
+    let indexes = (str.charAt(str.length - 1));
+    let popup = document.getElementById(`popup-${indexes}`)
+    popup.classList.add('open-popup');
 }
 
-function closePopup() {
+function closePopup(event) {
+    let str = event.target.id;
+    let indexes = (str.charAt(str.length - 1));
+    let popup = document.getElementById(`popup-${indexes}`)
     popup.classList.remove('open-popup')
 }
 
